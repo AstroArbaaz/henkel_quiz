@@ -36,4 +36,8 @@ router.get('/leaderboard', async (req, res) => {
 
 })
 
+router.get('/history', (req, res)=>{
+    res.render('history');
+})
+
 module.exports = router;
