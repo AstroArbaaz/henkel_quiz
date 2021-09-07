@@ -1,35 +1,10 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-var session = require('express-session');
-var MongoDBStore = require('connect-mongodb-session')(session);
 
 require('dotenv').config();
 
 const port = process.env.PORT;
-
-const store = new MongoDBStore({
-    uri: 'mongodb://localhost:27017/quiz',
-    collection: 'mySessions'
-  });
-
-// Catch errors
-store.on('error', function(error) {
-    console.log(error);
-  });
-
-app.use(require('express-session')({
-    secret: 'This is a secret',
-    cookie: {
-        maxAge: 1000 * 60 * 60 * 24 * 7 // 1 week
-    },
-    store: store,
-    // Boilerplate options, see:
-    // * https://www.npmjs.com/package/express-session#resave
-    // * https://www.npmjs.com/package/express-session#saveuninitialized
-    resave: true,
-    saveUninitialized: true
-}));
 
 //Serving Static files
 app.use(express.static('public'));
@@ -79,5 +54,5 @@ app.use('/', leaderRouter);
 
 // Server Start
 app.listen(port, () => {
-    console.log(`API Running at http://localhost:${port}`);
+    console.log(`API Running at https://localhost:${port}`);
 });
