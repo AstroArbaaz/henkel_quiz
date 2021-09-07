@@ -9,10 +9,54 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+    <style>
+      .container{
+        height: 96.4vh;
+      }
+       .footer {
+        position: sticky;        
+        width: 100%;
+        background-color: #cc2229;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+      }
+      p{
+        margin-bottom: 0rem;
+      }
+      a{
+        margin-bottom: 0rem;
+      color: #fff;
+    }
+    a:hover {
+      cursor: pointer;
+       color: blue;
+       text-decoration: none;
+       -ms-transform-origin-y: 0.5s all;
+    }
+    .henkel_logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 42%;
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  .henkel_logo{
+    margin-left: 65px;
+  }
+}
+    </style>
+
   </head>
   <body>
     
     <div class="container">
+      <div class="henkel_logo">
+        <img src="/img/henkel-1-logo-svg-vector.svg" alt="">
+      </div>
 
     <div class="accordion" id="accordionPanelsStayOpenExample">
         <div class="accordion-item">
@@ -137,6 +181,10 @@
         </div>
     </div>
  
+    </div>
+
+    <div class="footer">
+      <p>Powered By <a href="https://www.360brightmedia.com/">360 Brightmedia</a></p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>

@@ -12,6 +12,28 @@
   <title>Leaderboard</title>
 
   <link rel="stylesheet" href="/js/css/leaderboard.css">
+
+  <style>
+    .footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #cc2229;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    }
+    a{
+      color: #fff;
+    }
+    a:hover {
+      cursor: pointer;
+       color: blue;
+       text-decoration: none;
+       -ms-transform-origin-y: 0.5s all;
+    }
+  </style>
 </head>
 
 <body>
@@ -52,7 +74,11 @@
   <div class="wrap">
 
     <button class="btn1" id="back" onclick="window.location.href='/'">Exit</button>
-    <button class="btn2" id="previous" onclick="window.location.href='/history'">History</button>
+    <!-- <button class="btn2" id="previous" onclick="window.location.href='/history'">History</button> -->
+  </div>
+
+  <div class="footer">
+    <p>Powered By <a href="https://www.360brightmedia.com/">360 Brightmedia</a></p>
   </div>
 
 </body>

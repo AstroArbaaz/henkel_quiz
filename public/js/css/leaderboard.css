@@ -75,6 +75,9 @@ th{
     /* border: 1px solid #CC2229; */
     border-radius: 20px;
 }
+p{
+    margin-bottom: 0rem;
+}
 
 table { border-collapse: separate; }
 td { border: solid 1px #000; }
@@ -119,10 +122,8 @@ html {
 
 .wrap{
     display: inline-block;
-    margin: 0% 35%;
-    justify-content: space-between;
-   
-    
+    margin: 0% 47%;
+    justify-content: space-between; 
 }
 
 .btn1{
@@ -130,8 +131,9 @@ html {
    /* margin: 0% 20%; */
    /* margin-left: 20%; */
     margin-right: 20px;
-    padding: 14px 20px;
-    border-radius: 24px;
+    margin-bottom: 5px;
+    padding: 7px 23px;
+    border-radius: 12px;
     border: none;
     font-weight: bolder;
     font-size: small;
@@ -139,13 +141,15 @@ html {
     background-color: #CC2229;
 }
 
+
+
 .btn2{
     /* display: inline-block; */
 
     /* margin: 0% 20%; */
     float: right !important;
-    padding: 14px 20px;
-    border-radius: 24px;
+    padding: 7px 10px;
+    border-radius: 12px;
     border: none;
     font-weight: bolder;
     font-size: small;
@@ -157,9 +161,15 @@ html {
     .btn{
         top: 88%}
     .wrap{
-      margin: 0% 20px;
+      margin: 0px ;
+      margin-left: 40%;
+      justify-content: center;
+      text-align: center;
     }
     .btn1{
-        margin-right: 8px;
+        margin-right: 0px;
+        justify-content: center;
+        text-align: center;
     }
    
+

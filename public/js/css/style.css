@@ -15,7 +15,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 97.2vh;
     background-color: #CC2229;
 }
 
@@ -24,7 +24,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 97.2vh;
     background-color: #fff; 
 }
 
@@ -254,3 +254,13 @@ body{
         top: 88%
     }
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
