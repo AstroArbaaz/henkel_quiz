@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Henkel Milo-italic;
+    
+}
+
+/* //wrapper  */
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #CC2229;
+}
+
+.wrapper_start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff; 
+}
+
+.henkel_logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 90px;
+    width: 200px;
+    height: 200px;
+}
+
+.welcome_text {
+    
+    width: 400px;
+}
+
+.welcome_form_start input,
+.welcome_form_start button{
+    display: block;
+    width: 100%; 
+}
+
+.welcome_form_start input {
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #CC2229;
+    color: #CC2229;
+    font-size: 30px;
+    text-align: center;
+}
+
+.welcome_form_start button {
+    font-size: 22px;
+    padding: 20px 0;
+    border: none;
+    background-color: #CC2229;
+    color: #fff;
+    border-radius: 100px;
+    transition: 0.4s all;
+}
+
+.welcome_form_start button:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.welcome_form_start input:focus,
+.welcome_form_start button:focus {
+    outline: none;
+}
+
+.welcome_form input,
+.welcome_form button{
+    display: block;
+    width: 100%;
+}
+
+.welcome_form input {
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.welcome_form ::placeholder{
+    color: #fff;
+}
+
+.welcome_form button {
+    font-size: 22px;
+    padding: 20px 0;
+    border: none;
+    background-color: #fff;
+    color: #CC2229;
+    border-radius: 100px;
+    transition: 0.4s all;
+}
+
+.welcome_form button:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.welcome_form input:focus,
+.welcome_form button:focus {
+    outline: none;
+}
+
+.quiz{
+    border-radius: 3px;
+    display: grid;
+    grid-template-rows: 60px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #fff;
+}
+
+.quiz_header{
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.quiz_body {
+    padding: 30px;
+    background-color: #ecf0f1;
+}
+
+.quiz_user {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.quiz_timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CC2229;
+    color: #fff;
+    padding: 0 30px;
+}
+
+.option_group {
+    list-style: none;
+    margin: 30px 0;
+}
+
+.option {
+    background-color: #fff;
+    width: 300px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 100px;
+    border: 2px solid transparent;
+}
+
+.option:hover{
+    border: 2px solid #CC2229 ;
+    cursor: pointer;
+    color: #CC2229;
+}
+
+.btn-next{
+    background-color: #CC2229;
+    color: #fff;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 100px;
+    transition: 0.4s all;
+}
+
+.btn-next:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #CC2229;
+    box-shadow: 0px 0px  10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.active{
+    background-color: #CC2229;
+    color: #fff !important;
+}
+
+.fa  {
+    color: #fff;
+    font-size: 300px;
+}
+
+.user_name,
+.user_points,
+.user_time {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.header{
+    width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.grey{
+    background-color: grey;
+    color: #CC2229;
+}
+
+.quiz_logo{
+    height: 100px;
+    width: 100px;
+    padding-right: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .quiz_logo{
+        height: 60px;
+        width: 60px;
+        padding-right: 10px;
+    }
+  }
+
+.btn{
+    position: absolute;
+    top: 85%;
+    padding: 14px 20px;
+    border-radius: 24px;
+    border: none;
+    font-weight: bolder;
+    font-size: larger;
+    color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn{
+        top: 88%
+    }
+}

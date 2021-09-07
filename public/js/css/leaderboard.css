@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Henkel Milo-italic;
+}
+
+/* //wrapper  */
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60% ;
+    /* height: 100vh; */
+    background-color: #fff;
+    margin-left: 20%;
+   
+}
+
+.henkel_logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* margin-left: 90px; */
+    /* width: 200px; */
+    height: 200px;
+}
+
+.header{
+    display: inline;
+    float: left;
+}
+
+table {
+    border-collapse: collapse;
+    /* width: 100%; */
+}
+  
+  
+thead , tbody {
+    margin : 15px; 
+}
+
+thead tr{
+    border-top: 0.5px ridge rgb(36, 36, 36);;
+}
+  
+tr{
+    border-bottom: 0.5px ridge rgb(36, 36, 36);
+    /* border-radius: 20px; */
+}
+
+
+
+.fa {
+    float: left;
+    color: goldenrod;
+    font-size: 40px;
+}
+
+td, th {
+    padding: 15px 5px;
+    display: table-cell;    
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
+th{
+    background-color: #CC2229;
+    color: #fff;
+    font-size: 25px;
+    /* border: 1px solid #CC2229; */
+    border-radius: 20px;
+}
+
+table { border-collapse: separate; }
+td { border: solid 1px #000; }
+tr:first-child td:first-child { border-top-left-radius: 10px; }
+tr:first-child td:last-child { border-top-right-radius: 10px; }
+tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+tr:last-child td:last-child { border-bottom-right-radius: 10px; }
+
+
+@media screen and (max-width: 640px) {
+    th{
+        font-size: 20px;
+    }
+
+    .wrapper{
+        width: 100vw;
+        margin-left: 0px;
+        /* margin-right: 10px; */
+    }
+}
+
+tbody tr:hover{
+    background-color: #CC2229;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background: #CC2229;
+   background: -webkit-linear-gradient(to right, #CC2229, #fff);  
+   background: linear-gradient(to bottom, #CC2229, #fff);
+   /* border-bottom: 2px solid #CC2229 ; */
+  }
+
+  /* tr:nth-child(odd) {
+    background-color: grey;
+  } */
+
+@media only screen and (min-width: 0)
+html {
+    font-size: 14px;
+}

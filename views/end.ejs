@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Quiz</title>
+
+    <!-- include style css -->
+    <link rel="stylesheet" href="/js/css/style.css">
+</head>
+
+<body>
+
+
+    <div class="wrapper" id="canvas">
+
+        <div>
+
+            <i class="fa fa-trophy"></i>
+            <h2 class="user_name">Well done! <span class="name"></span> </h2>
+            <p class="user_points">your Points: <span class="points"></span></p>
+            <p class="user_time">Time <span class="time">0 minutes seconds</span></p>
+
+        </div>
+
+        <form action="/register" method="POST" id="form1">
+            <input type="hidden" id="name" name="name" class="name"><br><br>
+            <input type="hidden" id="points" name="score" class="points">
+            <input type="hidden" id="time" name="time" class="time">
+            <!-- <input type="submit" value="Go to Leaderboard"> -->
+        </form>
+
+        <button type="submit" form="form1" value="Submit" class="btn">
+            Leaderboard
+           <!-- <a href="/leaderboard"> Go to Leaderboard </a> -->
+        </button>
+
+        <!-- <div>
+            <a href="/leaderboard">leaderboard</a>
+        </div> -->
+
+
+    </div>
+
+
+
+    <script src="/js/js1/quiz.js"></script>
+
+    <!-- userinfo js  -->
+    <script src="/js/js1/user.js"></script>
+
+    <!-- confetti animation js -->
+    <script src="/confetti-main/confetti.js"></script>
+    <script>
+        // to start
+        const start = () => {
+            setTimeout(function () {
+                confetti.start();
+            }, 1000)
+        }
+        // to stop
+        const stop = () => {
+            setTimeout(function () {
+                confetti.stop();
+            }, 5000)
+        }
+        start();
+        stop();
+    </script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script> -->
+</body>
+
+</html>
