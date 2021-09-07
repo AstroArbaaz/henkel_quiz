@@ -2,7 +2,11 @@ const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
 const leaderboardSchema = new Schema({
-   name: String,
+   name: {
+      type: String,
+      unique: true,
+      required: true
+   },
    score: Number,
    time: String
 });
