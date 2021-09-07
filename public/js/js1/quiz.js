@@ -5,257 +5,258 @@ window.onload = function () {
 let questions = [
     {
         id: 1,
-        question: "What is the Olympic sport in which athletes cross the finish line backwards?",
-        answer: "b.	Rowing",
+        question: "What do you think will be a fair material saving % if we convert a simple rigid packaging to flexibles ?",
+        answer: "a) 40-50",
         options: [
-            "a.	Sailing",
-            "b.	Rowing",
-            "c.	Pole jump",
-            "d.	Racewalking"
+            "a) 40-50g",
+            "b) 80-90",
+            "c) 20-30",
+            "d) 5-10"
         ]
     },
     {
         id: 2,
-        question: "What was the length of Neeraj Chopra’s Javelin throw?",
-        answer: "a.	87.58",
+        question: "Which of the following can be considered as flexible packaging?",
+        answer: "b) Printed Carry bags",
         options: [
-            "a.	87.58",
-            "b.	85.78",
-            "c.	88.75",
-            "d.	87.85"
+            "a) Trays for chocklates",
+            "b) Printed Carry bags",
+            "c) PET bottles",
+            "d) Milk pouches"
         ]
     },
     {
         id: 3,
-        question: "Name the only Indian women who has won two individual medals in Olympics ?",
-        answer: "c.	P V Sindhu",
+        question: "What do you think is the main reason for using flexible packaging?",
+        answer: "d.	Combination of many properties",
         options: [
-            "a.	P T Usha",
-            "b.	Saina Nehwal",
-            "c.	P V Sindhu",
-            "d.	Chanu Saikhom Mirabai"
+            "a. Easy availability",
+            "b.	Reusability",
+            "c.	Food safety",
+            "d. Combination of many properties"
         ]
     },
     {
         id: 4,
-        question: "The goal keeper of our women’s hockey team, in Tokyo Olympics 2020",
-        answer: "c.	Savita Punia",
+        question: "Which material represents the highest volume in flexible packaging materials?",
+        answer: "c.	PE",
         options: [
-            "a.	Tejaswini Rajshekar",
-            "b.	Rajani Etimarpu",
-            "c.	Savita Punia",
-            "d.	Rani Rampal"
+            "a.	PP",
+            "b.	PET",
+            "c.	PE",
+            "d.	Paper"
+
         ]
     },
     {
         id: 5,
-        question: "Olympics 2028 will be held in which place and country ?",
-        answer: "a.	Los Angeles, USA",
+        question: "What technologies are used to combine a foil with film (check all that apply)",
+        answer: "a.	Adhesive lamination",
         options: [
-            "a.	Los Angeles, USA",
-            "b.	Paris, France",
-            "c.	Beijing, China",
-            "d.	Moscow, Russia"
+            "a.	Adhesive lamination",
+            "b.	Heat & Pressure lamination",
+            "c.	Extrusion lamination",
+            "d.	Primer"
         ]
     },
     {
         id: 6,
-        question: "What is the longest distance among the Olympic events in athletics?",
-        answer: "b.	50Kms",
+        question: "Which of the following are essential for safety in flexible packaging operations ( check all that apply)?",
+        answer: "c.	Gloves",
         options: [
-            "a.	100kms",
-            "b.	50Kms",
-            "c.	125Kms",
-            "d.	75Kms"
+            "a.	Helmets",
+            "b.	Safety Goggles",
+            "c.	Gloves",
+            "d.	Safety shoes"
         ]
     },
     {
         id: 7,
-        question: "Who was the Equestrian athlete from India who entered finals but finished in 23rd place in Tokyo Olympics 2020?",
-        answer: "c.	Fouaad Mirza",
+        question: "What kind of mechanical Risks do you see in lamination process",
+        answer: "c.	Cuts",
         options: [
-            "a.	Jitendarjit Singh Ahluwalia",
-            "b.	Hussian Khan",
-            "c.	Fouaad Mirza",
-            "d.	Darya Singh"
+            "a.	Burns",
+            "b.	Itching & Irritation",
+            "c. Cuts",
+            "d.	Inhalation of chemicals"
         ]
     },
     {
         id: 8,
-        question: "How many black and white squares are there on a chess board in total?",
-        answer: "c.	64",
+        question: "Which one of the following is a must have while going into adhesive lamination shop floor",
+        answer: "c.	Safety Shoes & goggles",
         options: [
-            "a.	91",
-            "b.	49",
-            "c.	64",
-            "d.	100"
+            "a. Helmets & Safety shoes",
+            "b.	Safety goggles & Gloves",
+            "c.	Safety Shoes & goggles",
+            "d.	Aprons and gloves"
         ]
     },
     {
         id: 9,
-        question: "Which planet is the hottest planet in our solar system?",
-        answer: "d.	Venus",
+        question: "What are the important three parts of the body which have to be protected?",
+        answer: "d.	All of the above",
         options: [
-            "a.	Mars",
-            "b.	Jupiter",
-            "c.	Saturn",
-            "d.	Venus"
-        ]
-    },
-    {
-        id: 10,
-        question: "In which country you do not find snakes/reptiles?",
-        answer: "b.	New Zealand",
-        options: [
-            "a.	Australia",
-            "b.	New Zealand",
-            "c.	 USA ",
-            "d.	Canada"
-        ]
-    },
-    {
-        id: 11,
-        question: "Who was the first women to host the Oscars on her own?",
-        answer: "a.	Whoopi Goldberg",
-        options: [
-            "a.	Whoopi Goldberg",
-            "b.	Agnes Moorhead",
-            "c.	Ellen DeGeneres",
-            "d.	Anne Hathway"
-        ]
-    },
-    {
-        id: 12,
-        question: "Who was the first Indian scientist to win a Nobel prize?",
-        answer: "b.	CV Raman",
-        options: [
-            "a.	Rabindranath Tagore",
-            "b.	CV Raman",
-            "c.	Amartya Sen",
-            "d.	Hargobind Khorana"
-        ]
-    },
-    {
-        id: 13,
-        question: "Deepest point of the earth is called ",
-        answer: "c.	Mariana Trench",
-        options: [
-            "a.	Tongo Trench ",
-            "b.	Philliphine Trench",
-            "c.	Mariana Trench",
-            "d.	Japan Trench"
-        ]
-    },
-    {
-        id: 14,
-        question: "India is NOT the largest producer of",
-        answer: "d.	Rice",
-        options: [
-            "a.	Milk",
-            "b.	Pulses",
-            "c.	Jute",
-            "d.	Rice"
-        ]
-    },
-    {
-        id: 15,
-        question: "India's First Indigenous COVID-19 Vaccine is",
-        answer: "a.	Covaxin",
-        options: [
-            "a.	Covaxin",
-            "b.	Covi Shield",
-            "c.	Coronil",
-            "d.	Pfizer"
-        ]
-    },
-    {
-        id: 16,
-        question: "What does the “19” in “COVID-19” refer to?",
-        answer: "d.	The corona virus and the disease it causes were identified in 2019",
-        options: [
-            "a.	There are 19 variants of the coronavirus",
-            "b.	There are 19 symptoms of Corona Virus",
-            "c.	This is the 19th corona virus pandemic",
-            "d.	The corona virus and the disease it causes were identified in 2019"
-        ]
-    },
-    {
-        id: 17,
-        question: "The corona in coronavirus means",
-        answer: "c.	Crown",
-        options: [
-            "a.	Sun",
-            "b.	Beer",
-            "c.	Crown",
-            "d.	Strong"
-        ]
-    },
-    {
-        id: 18,
-        question: "The second phase of vaccination started in India that allows all Indians above the age of 60 and Indians between the age of 45 and 59 with comorbidities to be vaccinated, was started from ",
-        answer: "b.	March 2021",
-        options: [
-            "a.	December 2020",
-            "b.	March 2021",
-            "c.	January 2021",
-            "d.	February 2021"
-        ]
-    },  
-    {
-        id: 19,
-        question: "Before August 1st 2021, the retirement age for FTE in Henkel India was",
-        answer: "b.	58",
-        options: [
-            "a.	56",
-            "b.	58",
-            "c.	60",
-            "d.	59 "
-        ]
-    },
-    {
-        id: 20,
-        question: "Carsten Knobel succeed whom as Henkel’s CEO",
-        answer: "c.	Hans Van Bylen",
-        options: [
-            "a.	Kasper Rorsted",
-            "b.	Jan-Dirk Auris",
-            "c.	Hans Van Bylen",
-            "d.	Marco Swoboda"
-        ]
-    },
-    {
-        id: 21,
-        question: "Which of the following foundations is Henkel associated with for Rethink packaging, Redesign packaging and circular economy?",
-        answer: "d.	Ellen Macarthur Foundation ",
-        options: [
-            "a.	Bill and Melinda Gates foundation",
-            "b.	Rockefeller Foundation ",
-            "c.	Nobel foundation",
-            "d.	Ellen Macarthur Foundation "
-        ]
-    },
-    {
-        id: 22,
-        question: "For Henkel’s padded mailer EPIX technology which of the following awards was given Henkel in 2020",
-        answer: "c.	Dow packaging innovation award",
-        options: [
-            "a.	Diamond packaging awards",
-            "b.	United nations packaging innovation",
-            "c.	Dow packaging innovation award",
-            "d.	Plastic bank innovation award  "
-        ]
-    },
-    {
-        id: 23,
-        question: "Which of the following is not the pillar of Henkel’s purposeful growth of winning the 20s?",
-        answer: "b.	Own our results",
-        options: [
-            "a.	Future ready operating models ",
-            "b.	Own our results",
-            "c.	Winning portfolio",
-            "d.	Collaborative culture and Empowered people "
+            "a.	Skin",
+            "b.	Eyes",
+            "c.	Respiratory Organs",
+            "d.	All of the above"
         ]
     }
+    // {
+    //     id: 10,
+    //     question: "In which country you do not find snakes/reptiles?",
+    //     answer: "b.	New Zealand",
+    //     options: [
+    //         "a.	Australia",
+    //         "b.	New Zealand",
+    //         "c.	 USA ",
+    //         "d.	Canada"
+    //     ]
+    // },
+    // {
+    //     id: 11,
+    //     question: "Who was the first women to host the Oscars on her own?",
+    //     answer: "a.	Whoopi Goldberg",
+    //     options: [
+    //         "a.	Whoopi Goldberg",
+    //         "b.	Agnes Moorhead",
+    //         "c.	Ellen DeGeneres",
+    //         "d.	Anne Hathway"
+    //     ]
+    // },
+    // {
+    //     id: 12,
+    //     question: "Who was the first Indian scientist to win a Nobel prize?",
+    //     answer: "b.	CV Raman",
+    //     options: [
+    //         "a.	Rabindranath Tagore",
+    //         "b.	CV Raman",
+    //         "c.	Amartya Sen",
+    //         "d.	Hargobind Khorana"
+    //     ]
+    // },
+    // {
+    //     id: 13,
+    //     question: "Deepest point of the earth is called ",
+    //     answer: "c.	Mariana Trench",
+    //     options: [
+    //         "a.	Tongo Trench ",
+    //         "b.	Philliphine Trench",
+    //         "c.	Mariana Trench",
+    //         "d.	Japan Trench"
+    //     ]
+    // },
+    // {
+    //     id: 14,
+    //     question: "India is NOT the largest producer of",
+    //     answer: "d.	Rice",
+    //     options: [
+    //         "a.	Milk",
+    //         "b.	Pulses",
+    //         "c.	Jute",
+    //         "d.	Rice"
+    //     ]
+    // },
+    // {
+    //     id: 15,
+    //     question: "India's First Indigenous COVID-19 Vaccine is",
+    //     answer: "a.	Covaxin",
+    //     options: [
+    //         "a.	Covaxin",
+    //         "b.	Covi Shield",
+    //         "c.	Coronil",
+    //         "d.	Pfizer"
+    //     ]
+    // },
+    // {
+    //     id: 16,
+    //     question: "What does the “19” in “COVID-19” refer to?",
+    //     answer: "d.	The corona virus and the disease it causes were identified in 2019",
+    //     options: [
+    //         "a.	There are 19 variants of the coronavirus",
+    //         "b.	There are 19 symptoms of Corona Virus",
+    //         "c.	This is the 19th corona virus pandemic",
+    //         "d.	The corona virus and the disease it causes were identified in 2019"
+    //     ]
+    // },
+    // {
+    //     id: 17,
+    //     question: "The corona in coronavirus means",
+    //     answer: "c.	Crown",
+    //     options: [
+    //         "a.	Sun",
+    //         "b.	Beer",
+    //         "c.	Crown",
+    //         "d.	Strong"
+    //     ]
+    // },
+    // {
+    //     id: 18,
+    //     question: "The second phase of vaccination started in India that allows all Indians above the age of 60 and Indians between the age of 45 and 59 with comorbidities to be vaccinated, was started from ",
+    //     answer: "b.	March 2021",
+    //     options: [
+    //         "a.	December 2020",
+    //         "b.	March 2021",
+    //         "c.	January 2021",
+    //         "d.	February 2021"
+    //     ]
+    // },  
+    // {
+    //     id: 19,
+    //     question: "Before August 1st 2021, the retirement age for FTE in Henkel India was",
+    //     answer: "b.	58",
+    //     options: [
+    //         "a.	56",
+    //         "b.	58",
+    //         "c.	60",
+    //         "d.	59 "
+    //     ]
+    // },
+    // {
+    //     id: 20,
+    //     question: "Carsten Knobel succeed whom as Henkel’s CEO",
+    //     answer: "c.	Hans Van Bylen",
+    //     options: [
+    //         "a.	Kasper Rorsted",
+    //         "b.	Jan-Dirk Auris",
+    //         "c.	Hans Van Bylen",
+    //         "d.	Marco Swoboda"
+    //     ]
+    // },
+    // {
+    //     id: 21,
+    //     question: "Which of the following foundations is Henkel associated with for Rethink packaging, Redesign packaging and circular economy?",
+    //     answer: "d.	Ellen Macarthur Foundation ",
+    //     options: [
+    //         "a.	Bill and Melinda Gates foundation",
+    //         "b.	Rockefeller Foundation ",
+    //         "c.	Nobel foundation",
+    //         "d.	Ellen Macarthur Foundation "
+    //     ]
+    // },
+    // {
+    //     id: 22,
+    //     question: "For Henkel’s padded mailer EPIX technology which of the following awards was given Henkel in 2020",
+    //     answer: "c.	Dow packaging innovation award",
+    //     options: [
+    //         "a.	Diamond packaging awards",
+    //         "b.	United nations packaging innovation",
+    //         "c.	Dow packaging innovation award",
+    //         "d.	Plastic bank innovation award  "
+    //     ]
+    // },
+    // {
+    //     id: 23,
+    //     question: "Which of the following is not the pillar of Henkel’s purposeful growth of winning the 20s?",
+    //     answer: "b.	Own our results",
+    //     options: [
+    //         "a.	Future ready operating models ",
+    //         "b.	Own our results",
+    //         "c.	Winning portfolio",
+    //         "d.	Collaborative culture and Empowered people "
+    //     ]
+    // }
 ]
 
 
