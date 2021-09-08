@@ -8,7 +8,7 @@ let questions = [
         question: "What do you think will be a fair material saving % if we convert a simple rigid packaging to flexibles ?",
         answer: "a) 40-50",
         options: [
-            "a) 40-50g",
+            "a) 40-50",
             "b) 80-90",
             "c) 20-30",
             "d) 5-10"
@@ -17,10 +17,10 @@ let questions = [
     {
         id: 2,
         question: "Which of the following can be considered as flexible packaging?",
-        answer: "b) Printed Carry bags",
+        answer: "d) Milk pouches",
         options: [
             "a) Trays for chocklates",
-            "b) Printed Carry bags",
+            "b) Yogurt/Curd Cups",
             "c) PET bottles",
             "d) Milk pouches"
         ]
@@ -28,7 +28,7 @@ let questions = [
     {
         id: 3,
         question: "What do you think is the main reason for using flexible packaging?",
-        answer: "d.	Combination of many properties",
+        answer: "d. Combination of many properties",
         options: [
             "a. Easy availability",
             "b.	Reusability",
@@ -50,8 +50,8 @@ let questions = [
     },
     {
         id: 5,
-        question: "What technologies are used to combine a foil with film (check all that apply)",
-        answer: "a.	Adhesive lamination",
+        question: "Which of the following is not used to combine film with foil?",
+        answer: "d.	Primer",
         options: [
             "a.	Adhesive lamination",
             "b.	Heat & Pressure lamination",
@@ -61,48 +61,48 @@ let questions = [
     },
     {
         id: 6,
-        question: "Which of the following are essential for safety in flexible packaging operations ( check all that apply)?",
-        answer: "c.	Gloves",
+        question: "Which of the following technologies is the most sustainable?",
+        answer: "b.	Solvent Free",
         options: [
-            "a.	Helmets",
-            "b.	Safety Goggles",
-            "c.	Gloves",
-            "d.	Safety shoes"
+            "a.	Solvent Base",
+            "b.	Solvent Free",
+            "c.	Water Base",
+            "d.	Extrusion Lamination"
         ]
     },
     {
         id: 7,
-        question: "What kind of mechanical Risks do you see in lamination process",
-        answer: "c.	Cuts",
+        question: "Which of the following is not a factor while selecting adhesives?",
+        answer: "a.	Coating Weight",
         options: [
-            "a.	Burns",
-            "b.	Itching & Irritation",
-            "c. Cuts",
-            "d.	Inhalation of chemicals"
-        ]
-    },
-    {
-        id: 8,
-        question: "Which one of the following is a must have while going into adhesive lamination shop floor",
-        answer: "c.	Safety Shoes & goggles",
-        options: [
-            "a. Helmets & Safety shoes",
-            "b.	Safety goggles & Gloves",
-            "c.	Safety Shoes & goggles",
-            "d.	Aprons and gloves"
-        ]
-    },
-    {
-        id: 9,
-        question: "What are the important three parts of the body which have to be protected?",
-        answer: "d.	All of the above",
-        options: [
-            "a.	Skin",
-            "b.	Eyes",
-            "c.	Respiratory Organs",
-            "d.	All of the above"
+            "a.	Coating Weight",
+            "b.	PAA Decay",
+            "c. End Use of the laminate",
+            "d.	Curing of Laminate"
         ]
     }
+    // {
+    //     id: 8,
+    //     question: "Which one of the following is a must have while going into adhesive lamination shop floor",
+    //     answer: "c.	Safety Shoes & goggles",
+    //     options: [
+    //         "a. Helmets & Safety shoes",
+    //         "b.	Safety goggles & Gloves",
+    //         "c.	Safety Shoes & goggles",
+    //         "d.	Aprons and gloves"
+    //     ]
+    // },
+    // {
+    //     id: 9,
+    //     question: "What are the important three parts of the body which have to be protected?",
+    //     answer: "d.	All of the above",
+    //     options: [
+    //         "a.	Skin",
+    //         "b.	Eyes",
+    //         "c.	Respiratory Organs",
+    //         "d.	All of the above"
+    //     ]
+    // }
     // {
     //     id: 10,
     //     question: "In which country you do not find snakes/reptiles?",
