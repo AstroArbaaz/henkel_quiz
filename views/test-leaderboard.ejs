@@ -23,6 +23,7 @@
     background-color: #cc2229;
     color: white;
     text-align: center;
+    font-size: 20px;
     text-decoration: none;
     }
     a{
@@ -37,7 +38,8 @@
   </style>
 </head>
 
-<body onbeforeunload = "HandleBackFunctionality()" >
+<body>
+
   <div class="henkel_logo">
     <img src="/img/henkel-1-logo-svg-vector.svg" alt="">
   </div>
@@ -85,7 +87,9 @@
 </body>
 
 <script>
-  
+  function preback() {window.history.forward();}
+setTimeout("preback()",0);
+window.onunload= function() {null};
 </script>
 
 </html>

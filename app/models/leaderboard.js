@@ -4,7 +4,6 @@ const { Schema } = mongoose;
 const leaderboardSchema = new Schema({
    name: {
       type: String,
-      unique: 1,
       required: true
    },
    score: Number,

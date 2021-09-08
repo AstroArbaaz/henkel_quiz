@@ -15,7 +15,7 @@ exports.newLeaderboard = (req, res) => {
 
     return createLeader
         .save()
-        .then((result) => {
+        .then(() => {
             res
                 .status(201)
                 // .json({ message: "User registered!", createLeader: result });
@@ -25,6 +25,6 @@ exports.newLeaderboard = (req, res) => {
             if (!err.statusCode) {
                 err.statusCode = 500;
             }
-            next()
+            next(err)
         });
 };
