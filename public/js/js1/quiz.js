@@ -5,159 +5,159 @@ window.onload = function () {
 let questions = [
     {
         id: 1,
-        question: "What do you think will be a fair material saving % if we convert a simple rigid packaging to flexibles ?",
-        answer: "a) 40-50",
+        question: "Which of the following are essential for safety in flexible packaging operations",
+        answer: "c. Gloves",
         options: [
-            "a) 40-50",
-            "b) 80-90",
-            "c) 20-30",
-            "d) 5-10"
+            "a. Helmets",
+            "b. Safety Goggles",
+            "c. Gloves",
+            "d. Safety shoes"
         ]
     },
     {
         id: 2,
-        question: "Which of the following can be considered as flexible packaging?",
-        answer: "d) Milk pouches",
+        question: "What kind of mechanical Risks do you see in lamination process",
+        answer: "c. Cuts",
         options: [
-            "a) Trays for chocklates",
-            "b) Yogurt/Curd Cups",
-            "c) PET bottles",
-            "d) Milk pouches"
+            "a. Burns",
+            "b. Itching & Irritation",
+            "c. Cuts",
+            "d. Inhalation of chemicals"
         ]
     },
     {
         id: 3,
-        question: "What do you think is the main reason for using flexible packaging?",
-        answer: "d. Combination of many properties",
+        question: "Which one of the following is a must have while going into adhesive lamination shop floor",
+        answer: "c.	Safety Shoes & goggles",
         options: [
-            "a. Easy availability",
-            "b.	Reusability",
-            "c.	Food safety",
-            "d. Combination of many properties"
+            "a. Helmets & Safety shoes",
+            "b.	Safety goggles & Gloves",
+            "c.	Safety Shoes & goggles",
+            "d. Aprons and gloves."
         ]
     },
     {
         id: 4,
-        question: "Which material represents the highest volume in flexible packaging materials?",
-        answer: "c.	PE",
+        question: "What are the important three parts of the body which have to be protected",
+        answer: "d.	All of the above",
         options: [
-            "a.	PP",
-            "b.	PET",
-            "c.	PE",
-            "d.	Paper"
+            "a.	Skin",
+            "b.	Eyes",
+            "c.	Respiratory Organs",
+            "d.	All of the above"
 
         ]
     },
     {
         id: 5,
-        question: "Which of the following is not used to combine film with foil?",
-        answer: "d.	Primer",
+        question: "What kind of substrates can be bonded to make laminates",
+        answer: "b.	Paper",
         options: [
-            "a.	Adhesive lamination",
-            "b.	Heat & Pressure lamination",
-            "c.	Extrusion lamination",
-            "d.	Primer"
+            "a.	Films",
+            "b.	Paper",
+            "c.	Glass",
+            "d.	All of the above"
         ]
     },
     {
         id: 6,
-        question: "Which of the following technologies is the most sustainable?",
-        answer: "b.	Solvent Free",
+        question: "Which are the critical factors in adhesion",
+        answer: "b.	Contact Angle",
         options: [
-            "a.	Solvent Base",
-            "b.	Solvent Free",
-            "c.	Water Base",
-            "d.	Extrusion Lamination"
+            "a.	Surface tension",
+            "b.	Contact Angle",
+            "c.	Vanderwaal forces",
+            "d.	None of the above"
         ]
     },
     {
         id: 7,
-        question: "Which of the following is not a factor while selecting adhesives?",
-        answer: "a.	Coating Weight",
+        question: "Which amongst the following materials is easiest to wet",
+        answer: "c. Uncoated Paper",
         options: [
-            "a.	Coating Weight",
-            "b.	PAA Decay",
-            "c. End Use of the laminate",
-            "d.	Curing of Laminate"
+            "a.	Corona treated PET",
+            "b.	Foil",
+            "c. Uncoated Paper",
+            "d.	Met OPP"
+        ]
+    },
+    {
+        id: 8,
+        question: "Impurities on the surface of substrates leads to",
+        answer: "d.	Poor bond strength",
+        options: [
+            "a. Very good wettability",
+            "b.	Strong chemical adhesion to substrates",
+            "c.	Higher dyne retention",
+            "d.	Poor bond strength"
+        ]
+    },
+    {
+        id: 9,
+        question: "Corona treatment given to substrates in lamination should not lead to",
+        answer: "c.	Material degradation",
+        options: [
+            "a.	Improvement in Polarity",
+            "b.	Surface roughness",
+            "c.	Material degradation",
+            "d.	Cleaning"
+        ]
+    },
+    {
+        id: 10,
+        question: "Which of the following is not a synthetic polymer substrate",
+        answer: "b.	Paper",
+        options: [
+            "a.	Poly Ethylene Terephthalate",
+            "b.	Paper",
+            "c.	Oriented Polyamide ",
+            "d.	BOPP"
+        ]
+    },
+    {
+        id: 11,
+        question: "Which of the following polymers has a highly branched structure",
+        answer: "a.	LDPE",
+        options: [
+            "a.	LDPE",
+            "b.	LLDPE",
+            "c.	HDPE",
+            "d.	PPHP"
+        ]
+    },
+    {
+        id: 12,
+        question: "Which of the substrates given below has best moisture barrier property in correct order",
+        answer: "b.	Al Foil > PP > HDPE > PET > Paper",
+        options: [
+            "a.	Al Foil > HDPE > Paper > PET > PP",
+            "b.	Al Foil > PP > HDPE > PET > Paper",
+            "c.	Paper > PET > HDPE > PP > Al foil",
+            "d.	PP > HDPE > Al Foil > Paper > PET"
+        ]
+    },  
+    {
+        id: 13,
+        question: "Which of the following techniques are not used to improve barrier properties",
+        answer: "d.	Incorporating Additives like Euracamide",
+        options: [
+            "a.	Metallisation ",
+            "b.	SiOx Coating",
+            "c.	Biaxial Orientation",
+            "d.	Incorporating Additives like Euracamide"
+        ]
+    },
+    {
+        id: 14,
+        question: "Which amongst the following has the best in class Optical properties for similar thickness",
+        answer: "a.	BOPET",
+        options: [
+            "a.	BOPET",
+            "b.	Metallocene",
+            "c.	EVA",
+            "d.	PVC"
         ]
     }
-    // {
-    //     id: 8,
-    //     question: "Which one of the following is a must have while going into adhesive lamination shop floor",
-    //     answer: "c.	Safety Shoes & goggles",
-    //     options: [
-    //         "a. Helmets & Safety shoes",
-    //         "b.	Safety goggles & Gloves",
-    //         "c.	Safety Shoes & goggles",
-    //         "d.	Aprons and gloves"
-    //     ]
-    // },
-    // {
-    //     id: 9,
-    //     question: "What are the important three parts of the body which have to be protected?",
-    //     answer: "d.	All of the above",
-    //     options: [
-    //         "a.	Skin",
-    //         "b.	Eyes",
-    //         "c.	Respiratory Organs",
-    //         "d.	All of the above"
-    //     ]
-    // }
-    // {
-    //     id: 10,
-    //     question: "In which country you do not find snakes/reptiles?",
-    //     answer: "b.	New Zealand",
-    //     options: [
-    //         "a.	Australia",
-    //         "b.	New Zealand",
-    //         "c.	 USA ",
-    //         "d.	Canada"
-    //     ]
-    // },
-    // {
-    //     id: 11,
-    //     question: "Who was the first women to host the Oscars on her own?",
-    //     answer: "a.	Whoopi Goldberg",
-    //     options: [
-    //         "a.	Whoopi Goldberg",
-    //         "b.	Agnes Moorhead",
-    //         "c.	Ellen DeGeneres",
-    //         "d.	Anne Hathway"
-    //     ]
-    // },
-    // {
-    //     id: 12,
-    //     question: "Who was the first Indian scientist to win a Nobel prize?",
-    //     answer: "b.	CV Raman",
-    //     options: [
-    //         "a.	Rabindranath Tagore",
-    //         "b.	CV Raman",
-    //         "c.	Amartya Sen",
-    //         "d.	Hargobind Khorana"
-    //     ]
-    // },
-    // {
-    //     id: 13,
-    //     question: "Deepest point of the earth is called ",
-    //     answer: "c.	Mariana Trench",
-    //     options: [
-    //         "a.	Tongo Trench ",
-    //         "b.	Philliphine Trench",
-    //         "c.	Mariana Trench",
-    //         "d.	Japan Trench"
-    //     ]
-    // },
-    // {
-    //     id: 14,
-    //     question: "India is NOT the largest producer of",
-    //     answer: "d.	Rice",
-    //     options: [
-    //         "a.	Milk",
-    //         "b.	Pulses",
-    //         "c.	Jute",
-    //         "d.	Rice"
-    //     ]
-    // },
     // {
     //     id: 15,
     //     question: "India's First Indigenous COVID-19 Vaccine is",
