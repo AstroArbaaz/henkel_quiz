@@ -5,8 +5,8 @@ window.onload = function () {
 let questions = [
     {
         id: 1,
-        question: "Which of the following are essential for safety in flexible packaging operations",
-        answer: "c. Gloves",
+        question: "Which of the following is least essential for safety in flexible packaging operations ?",
+        answer: "a. Helmets",
         options: [
             "a. Helmets",
             "b. Safety Goggles",
@@ -16,29 +16,29 @@ let questions = [
     },
     {
         id: 2,
-        question: "What kind of mechanical Risks do you see in lamination process",
+        question: "What kind of mechanical Risks do you see in lamination process?",
         answer: "c. Cuts",
         options: [
             "a. Burns",
-            "b. Itching & Irritation",
+            "b. Itching & Irritation",  
             "c. Cuts",
             "d. Inhalation of chemicals"
         ]
     },
-    {
-        id: 3,
-        question: "Which one of the following is a must have while going into adhesive lamination shop floor",
-        answer: "c.	Safety Shoes & goggles",
-        options: [
-            "a. Helmets & Safety shoes",
-            "b.	Safety goggles & Gloves",
-            "c.	Safety Shoes & goggles",
-            "d. Aprons and gloves."
-        ]
-    },
+    // {
+    //     id: 3,
+    //     question: "Which one of the following is a must have while going into adhesive lamination shop floor?",
+    //     answer: "b. Safety Shoes & goggles",
+    //     options: [
+    //         "a. Helmets & Safety shoes",
+    //         "b. Safety Shoes & goggles",  
+    //         "c. Aprons and gloves",
+    //         "d. None of the above"
+    //     ]
+    // },
     {
         id: 4,
-        question: "What are the important three parts of the body which have to be protected",
+        question: "What are the important three parts of the body which have to be protected?",
         answer: "d.	All of the above",
         options: [
             "a.	Skin",
@@ -50,29 +50,29 @@ let questions = [
     },
     {
         id: 5,
-        question: "What kind of substrates can be bonded to make laminates",
-        answer: "b.	Paper",
+        question: "What kind of substrates can be bonded to make laminates ?",
+        answer: "a.	Films, Metal, Paper",
         options: [
-            "a.	Films",
-            "b.	Paper",
-            "c.	Glass",
-            "d.	All of the above"
-        ]
-    },
-    {
-        id: 6,
-        question: "Which are the critical factors in adhesion",
-        answer: "b.	Contact Angle",
-        options: [
-            "a.	Surface tension",
-            "b.	Contact Angle",
-            "c.	Vanderwaal forces",
+            "a.	Films, Metal, Paper",
+            "b.	Glass",
+            "c.	All of the above",
             "d.	None of the above"
         ]
     },
     {
+        id: 6,
+        question: "Which are the critical factors in adhesion ?",
+        answer: "d.	All of the above",
+        options: [
+            "a.	Surface tension",
+            "b.	Contact Angle",
+            "c.	Vanderwaal forces",
+            "d.	All of the above"
+        ]
+    },
+    {
         id: 7,
-        question: "Which amongst the following materials is easiest to wet",
+        question: "Which amongst the following materials is easiest to wet?",
         answer: "c. Uncoated Paper",
         options: [
             "a.	Corona treated PET",
@@ -83,7 +83,7 @@ let questions = [
     },
     {
         id: 8,
-        question: "Impurities on the surface of substrates leads to",
+        question: "Impurities on the surface of substrates leads to ",
         answer: "d.	Poor bond strength",
         options: [
             "a. Very good wettability",
@@ -105,7 +105,7 @@ let questions = [
     },
     {
         id: 10,
-        question: "Which of the following is not a synthetic polymer substrate",
+        question: "Which of the following is not a synthetic polymer substrate ?",
         answer: "b.	Paper",
         options: [
             "a.	Poly Ethylene Terephthalate",
@@ -116,48 +116,59 @@ let questions = [
     },
     {
         id: 11,
-        question: "Which of the following polymers has a highly branched structure",
-        answer: "a.	LDPE",
+        question: "Which one of the following is a must have while going into adhesive lamination shop floor?",
+        answer: "a.	Safety Shoes and Goggles",
         options: [
-            "a.	LDPE",
-            "b.	LLDPE",
-            "c.	HDPE",
-            "d.	PPHP"
+            "a.	Safety Shoes and Goggles",
+            "b.	Helmets and Safety Shoes",
+            "c.	Aprons and Gloves",
+            "d.	None of the above"
         ]
     },
-    {
-        id: 12,
-        question: "Which of the substrates given below has best moisture barrier property in correct order",
-        answer: "b.	Al Foil > PP > HDPE > PET > Paper",
-        options: [
-            "a.	Al Foil > HDPE > Paper > PET > PP",
-            "b.	Al Foil > PP > HDPE > PET > Paper",
-            "c.	Paper > PET > HDPE > PP > Al foil",
-            "d.	PP > HDPE > Al Foil > Paper > PET"
-        ]
-    },  
-    {
-        id: 13,
-        question: "Which of the following techniques are not used to improve barrier properties",
-        answer: "d.	Incorporating Additives like Euracamide",
-        options: [
-            "a.	Metallisation ",
-            "b.	SiOx Coating",
-            "c.	Biaxial Orientation",
-            "d.	Incorporating Additives like Euracamide"
-        ]
-    },
-    {
-        id: 14,
-        question: "Which amongst the following has the best in class Optical properties for similar thickness",
-        answer: "a.	BOPET",
-        options: [
-            "a.	BOPET",
-            "b.	Metallocene",
-            "c.	EVA",
-            "d.	PVC"
-        ]
-    }
+    // {
+    //     id: 11,
+    //     question: "Which of the following polymers has a highly branched structure",
+    //     answer: "a.	LDPE",
+    //     options: [
+    //         "a.	LDPE",
+    //         "b.	LLDPE",
+    //         "c.	HDPE",
+    //         "d.	PPHP"
+    //     ]
+    // },
+    // {
+    //     id: 12,
+    //     question: "Which of the substrates given below has best moisture barrier property in correct order",
+    //     answer: "b.	Al Foil > PP > HDPE > PET > Paper",
+    //     options: [
+    //         "a.	Al Foil > HDPE > Paper > PET > PP",
+    //         "b.	Al Foil > PP > HDPE > PET > Paper",
+    //         "c.	Paper > PET > HDPE > PP > Al foil",
+    //         "d.	PP > HDPE > Al Foil > Paper > PET"
+    //     ]
+    // },  
+    // {
+    //     id: 13,
+    //     question: "Which of the following techniques are not used to improve barrier properties",
+    //     answer: "d.	Incorporating Additives like Euracamide",
+    //     options: [
+    //         "a.	Metallisation ",
+    //         "b.	SiOx Coating",
+    //         "c.	Biaxial Orientation",
+    //         "d.	Incorporating Additives like Euracamide"
+    //     ]
+    // },
+    // {
+    //     id: 14,
+    //     question: "Which amongst the following has the best in class Optical properties for similar thickness",
+    //     answer: "a.	BOPET",
+    //     options: [
+    //         "a.	BOPET",
+    //         "b.	Metallocene",
+    //         "c.	EVA",
+    //         "d.	PVC"
+    //     ]
+    // },
     // {
     //     id: 15,
     //     question: "India's First Indigenous COVID-19 Vaccine is",
