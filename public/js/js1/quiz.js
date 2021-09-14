@@ -62,12 +62,12 @@ let questions = [
     {
         id: 6,
         question: "Which one of the following parameter is mainly responsible for misting in SF adhesives?",
-        answer: "c.	Temperature & Adhesive viscosity",
+        answer: "c. Temperature and Adhesive viscosity",
         options: [
-            "a.	Pressure of rollers in contact",
-            "b.	Roller Gap",
-            "c.	Temperature & Adhesive viscosity",
-            "d.	Specific Gravity"
+            "a. Pressure of rollers in contact",
+            "b. Roller Gap",
+            "c. Temperature and Adhesive viscosity",
+            "d. Specific Gravity"
         ]
     },
     {
@@ -94,13 +94,13 @@ let questions = [
     },
     {
         id: 9,
-        question: "What is the correct order of mixing solvent based adhesive systems ?",
-        answer: "c.	Solvent, Adhesive & Hardener",
+        question: "what is the correct order of mixing solvent based adhesive system?",
+        answer: "c. Solvent, Adhesive and Hardener",
         options: [
-            "a.	Adhesive, Hardener, Solvent",
-            "b.	Hardener, adhesive, Solvent",
-            "c.	Solvent, Adhesive & Hardener",
-            "d.	Hardener, Solvent, Adhesive"
+            "a. Ashesive, Hardener, Solvent",
+            "b. Hardener, Adhesive, Solvent",
+            "c. Solvent, Adhesive and Hardener",
+            "d. Hardener, Solvent, Adhesive"
         ]
     },
     {
