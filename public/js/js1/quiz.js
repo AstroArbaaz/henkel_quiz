@@ -5,24 +5,24 @@ window.onload = function () {
 let questions = [
     {
         id: 1,
-        question: "Which of the following is least essential for safety in flexible packaging operations ?",
-        answer: "a. Helmets",
+        question: "Which one of the following adhesive property is least affected by temperatures?",
+        answer: "c. Specific gravity",
         options: [
-            "a. Helmets",
-            "b. Safety Goggles",
-            "c. Gloves",
-            "d. Safety shoes"
+            "a. Pot life",
+            "b. Mix Viscosity",
+            "c. Specific gravity",
+            "d. Stringing Property"
         ]
     },
     {
         id: 2,
-        question: "What kind of mechanical Risks do you see in lamination process?",
-        answer: "c. Cuts",
+        question: "Which of the following is not found in MSDS & TDS of adhesives?",
+        answer: "d. Adhesive formulations",
         options: [
-            "a. Burns",
-            "b. Itching & Irritation",  
-            "c. Cuts",
-            "d. Inhalation of chemicals"
+            "a. Mixing Ratio",
+            "b. Safe handling & storage",  
+            "c. Directions of use",
+            "d. Adhesive formulations"
         ]
     },
     // {
@@ -38,91 +38,91 @@ let questions = [
     // },
     {
         id: 4,
-        question: "What are the important three parts of the body which have to be protected?",
-        answer: "d.	All of the above",
+        question: "Amongst the following adhesive systems, which one has the least pot life",
+        answer: "a.	Two component Solvent free",
         options: [
-            "a.	Skin",
-            "b.	Eyes",
-            "c.	Respiratory Organs",
-            "d.	All of the above"
+            "a.	Two component Solvent free",
+            "b.	Two component Solvent Base",
+            "c.	Mono component Solvent free",
+            "d.	Water Based Adhesives"
 
         ]
     },
     {
         id: 5,
-        question: "What kind of substrates can be bonded to make laminates ?",
-        answer: "a.	Films, Metal, Paper",
+        question: "Which of the following you do not have to study prior to any adhesive component handling?",
+        answer: "c.	Company profile",
         options: [
-            "a.	Films, Metal, Paper",
-            "b.	Glass",
-            "c.	All of the above",
-            "d.	None of the above"
+            "a.	Material Safety Data sheet ( MSDS)",
+            "b.	Technical Data sheet (TDS)",
+            "c.	Company profile",
+            "d.	Certificate of Quality (COQ)"
         ]
     },
     {
         id: 6,
-        question: "Which are the critical factors in adhesion ?",
-        answer: "d.	All of the above",
+        question: "Which one of the following parameter is mainly responsible for misting in SF adhesives?",
+        answer: "c.	Temperature & Adhesive viscosity",
         options: [
-            "a.	Surface tension",
-            "b.	Contact Angle",
-            "c.	Vanderwaal forces",
-            "d.	All of the above"
+            "a.	Pressure of rollers in contact",
+            "b.	Roller Gap",
+            "c.	Temperature & Adhesive viscosity",
+            "d.	Specific Gravity"
         ]
     },
     {
         id: 7,
-        question: "Which amongst the following materials is easiest to wet?",
-        answer: "c. Uncoated Paper",
+        question: "What is not a mandatory requirement on mixing dosing unit systems?",
+        answer: "c. Auto feeding of adhesive in the system",
         options: [
-            "a.	Corona treated PET",
-            "b.	Foil",
-            "c. Uncoated Paper",
-            "d.	Met OPP"
+            "a.	It should be free & protected from moisture",
+            "b.	No mixing of components prior to static mixer",
+            "c. Auto feeding of adhesive in the system",
+            "d.	It should be clear from cured adhesive particles"
         ]
     },
     {
         id: 8,
-        question: "Impurities on the surface of substrates leads to ",
-        answer: "d.	Poor bond strength",
+        question: "What is not the major function of dosing head in SF system? ",
+        answer: "b.	To increase shelf life of machine",
         options: [
-            "a. Very good wettability",
-            "b.	Strong chemical adhesion to substrates",
-            "c.	Higher dyne retention",
-            "d.	Poor bond strength"
+            "a. Keep the adhesive separate before static mixer",
+            "b.	To increase shelf life of machine",
+            "c.	Pump the components in required ratio",
+            "d.	Mixing of adhesive and hardener"
         ]
     },
     {
         id: 9,
-        question: "Corona treatment given to substrates in lamination should not lead to",
-        answer: "c.	Material degradation",
+        question: "What is the correct order of mixing solvent based adhesive systems ?",
+        answer: "c.	Solvent, Adhesive & Hardener",
         options: [
-            "a.	Improvement in Polarity",
-            "b.	Surface roughness",
-            "c.	Material degradation",
-            "d.	Cleaning"
+            "a.	Adhesive, Hardener, Solvent",
+            "b.	Hardener, adhesive, Solvent",
+            "c.	Solvent, Adhesive & Hardener",
+            "d.	Hardener, Solvent, Adhesive"
         ]
     },
     {
         id: 10,
-        question: "Which of the following is not a synthetic polymer substrate ?",
-        answer: "b.	Paper",
+        question: "Which of the following is the most common method of dosing the adhesive into the adhesive dam in SF systems?",
+        answer: "a.	Intermittent Pumping of adhesive with oscillation",
         options: [
-            "a.	Poly Ethylene Terephthalate",
-            "b.	Paper",
-            "c.	Oriented Polyamide ",
-            "d.	BOPP"
+            "a.	Intermittent Pumping of adhesive with oscillation",
+            "b.	Constant pumping of adhesive without movement of head",
+            "c.	Constant Pumping with oscillation",
+            "d.	Intermittent Pumping without Oscillation"
         ]
     },
     {
         id: 11,
-        question: "Which one of the following is a must have while going into adhesive lamination shop floor?",
-        answer: "a.	Safety Shoes and Goggles",
+        question: "Why do we need temperatures in SF adhesive dosing systems?",
+        answer: "c.	To lower the viscosities of the product for better mixing",
         options: [
-            "a.	Safety Shoes and Goggles",
-            "b.	Helmets and Safety Shoes",
-            "c.	Aprons and Gloves",
-            "d.	None of the above"
+            "a.	To remove entrapped moisture in the product",
+            "b.	To remove entrapped solvents in the product",
+            "c.	To lower the viscosities of the product for better mixing",
+            "d.	All the above"
         ]
     },
     // {
