@@ -5,24 +5,24 @@ window.onload = function () {
 let questions = [
     {
         id: 1,
-        question: "Which one of the following adhesive property is least affected by temperatures?",
-        answer: "c. Specific gravity",
+        question: "Which one of the following is not a probable cause of poor bond strength in unprinted area?",
+        answer: "d. Long curing time",
         options: [
-            "a. Pot life",
-            "b. Mix Viscosity",
-            "c. Specific gravity",
-            "d. Stringing Property"
+            "a. Low Surface tension",
+            "b. Wrong mixing ratio",
+            "c. Poor interlayer adhesion in Poly",
+            "d. Long curing time"
         ]
     },
     {
         id: 2,
-        question: "Which of the following is not found in MSDS & TDS of adhesives?",
-        answer: "d. Adhesive formulations",
+        question: "Which of the following is not a causes of wetting failures?",
+        answer: "a. Variation in  Mix Ratio",
         options: [
-            "a. Mixing Ratio",
-            "b. Safe handling & storage",  
-            "c. Directions of use",
-            "d. Adhesive formulations"
+            "a. Variation in  Mix Ratio",
+            "b. Application weight too low",
+            "c. Temperature or pressure in the nip too low",
+            "d. Exceeded pot life"
         ]
     },
     // {
@@ -38,91 +38,91 @@ let questions = [
     // },
     {
         id: 4,
-        question: "Amongst the following adhesive systems, which one has the least pot life",
-        answer: "a.	Two component Solvent free",
+        question: "Low surface tension (low dyne value) does not result in ..",
+        answer: "b.	Lower contact angle",
         options: [
-            "a.	Two component Solvent free",
-            "b.	Two component Solvent Base",
-            "c.	Mono component Solvent free",
-            "d.	Water Based Adhesives"
+            "a.	Poor wettability",
+            "b.	Lower contact angle",
+            "c.	Low affinity to adhesive",
+            "d.	Speckling"
 
         ]
     },
     {
         id: 5,
-        question: "Which of the following you do not have to study prior to any adhesive component handling?",
-        answer: "c.	Company profile",
+        question: "Which of the following is common in higher weight gravure coating cylinders without cleaning?",
+        answer: "b.	Cells gets blocked with adhesive",
         options: [
-            "a.	Material Safety Data sheet ( MSDS)",
-            "b.	Technical Data sheet (TDS)",
-            "c.	Company profile",
-            "d.	Certificate of Quality (COQ)"
+            "a.	Coating weight increases with time",
+            "b.	Cells gets blocked with adhesive",
+            "c.	Higher solvent consumption",
+            "d.	Excessive wear and Tear"
         ]
     },
     {
         id: 6,
-        question: "Which one of the following parameter is mainly responsible for misting in SF adhesives?",
-        answer: "c. Temperature and Adhesive viscosity",
+        question: "In which one of the following situation you will see a coat weight increase in SF adhesive systems?",
+        answer: "b. Too high adhesive viscosity",
         options: [
-            "a. Pressure of rollers in contact",
-            "b. Roller Gap",
-            "c. Temperature and Adhesive viscosity",
-            "d. Specific Gravity"
+            "a. Too low adhesive viscosity",
+            "b. Too high adhesive viscosity",
+            "c. Repeated cleaning of the application roller",
+            "d. None of the above"
         ]
     },
     {
         id: 7,
-        question: "What is not a mandatory requirement on mixing dosing unit systems?",
-        answer: "c. Auto feeding of adhesive in the system",
+        question: "What according to you is not an option to eliminate wetting failures?",
+        answer: "d.	Decreasing the pressure on the Nip",
         options: [
-            "a.	It should be free & protected from moisture",
-            "b.	No mixing of components prior to static mixer",
-            "c. Auto feeding of adhesive in the system",
-            "d.	It should be clear from cured adhesive particles"
+            "a.	Increasing the temperature of the adhesive",
+            "b.	Increasing the pressure on transfer roller",
+            "c. Corona treatment of films",
+            "d.	Decreasing the pressure on the Nip"
         ]
     },
     {
         id: 8,
-        question: "What is not the major function of dosing head in SF system? ",
-        answer: "b.	To increase shelf life of machine",
+        question: "If there is a wetting failure (spot repeating after regular intervals) which one of the following could be the reason?",
+        answer: "c.	Damage in the circumference of the transfer roller",
         options: [
-            "a. Keep the adhesive separate before static mixer",
-            "b.	To increase shelf life of machine",
-            "c.	Pump the components in required ratio",
-            "d.	Mixing of adhesive and hardener"
+            "a. Higher Adhesive Viscosity",
+            "b.	Higher application temperature",
+            "c.	Damage in the circumference of the transfer roller",
+            "d.	Uneven pressure distribution between the rollers"
         ]
     },
     {
         id: 9,
-        question: "what is the correct order of mixing solvent based adhesive system?",
-        answer: "c. Solvent, Adhesive and Hardener",
+        question: "Which one of the following is an effect of retained solvents in the laminates?",
+        answer: "c. Tackiness in the adhesive layer",
         options: [
-            "a. Ashesive, Hardener, Solvent",
-            "b. Hardener, Adhesive, Solvent",
-            "c. Solvent, Adhesive and Hardener",
-            "d. Hardener, Solvent, Adhesive"
+            "a. Faster curing",
+            "b. Improved heat resistance properties",
+            "c. Tackiness in the adhesive layer",
+            "d. Curling of the laminate"
         ]
     },
     {
         id: 10,
-        question: "Which of the following is the most common method of dosing the adhesive into the adhesive dam in SF systems?",
-        answer: "a.	Intermittent Pumping of adhesive with oscillation",
+        question: "Pick the one substrate which can be stretched easily by giving higher tension.",
+        answer: "d.	PE",
         options: [
-            "a.	Intermittent Pumping of adhesive with oscillation",
-            "b.	Constant pumping of adhesive without movement of head",
-            "c.	Constant Pumping with oscillation",
-            "d.	Intermittent Pumping without Oscillation"
+            "a.	BOPET",
+            "b.	BOPA",
+            "c.	BOPP",
+            "d.	PE"
         ]
     },
     {
         id: 11,
-        question: "Why do we need temperatures in SF adhesive dosing systems?",
-        answer: "c.	To lower the viscosities of the product for better mixing",
+        question: "Which of the following parameter has a direct role in curling? ",
+        answer: "d.	Unbalanced tension",
         options: [
-            "a.	To remove entrapped moisture in the product",
-            "b.	To remove entrapped solvents in the product",
-            "c.	To lower the viscosities of the product for better mixing",
-            "d.	All the above"
+            "a.	Adhesive coat weight",
+            "b.	Higher pressure on Transfer rollers",
+            "c.	Line speeds",
+            "d.	Unbalanced tension"
         ]
     },
     // {
