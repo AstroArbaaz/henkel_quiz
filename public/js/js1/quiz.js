@@ -5,24 +5,24 @@ window.onload = function () {
 let questions = [
     {
         id: 1,
-        question: "Which one of the following is not a probable cause of poor bond strength in unprinted area?",
-        answer: "d. Long curing time",
+        question: "Which of the following SB adhesive scenario will have the lowest adhesive dry cost?",
+        answer: "c. Adhesive running at 35% application solids with solvent cost at 130 Rs per Kg",
         options: [
-            "a. Low Surface tension",
-            "b. Wrong mixing ratio",
-            "c. Poor interlayer adhesion in Poly",
-            "d. Long curing time"
+            "a. Adhesive running at 30% application solids with solvent cost at 70 Rs per Kg",
+            "b. Adhesive running at 35% application solids with solvent cost at 70  Rs per Kg",
+            "c. Adhesive running at 35% application solids with solvent cost at 130 Rs per Kg",
+            "d. Adhesive dry cost will remain the same for same adhesive."
         ]
     },
     {
         id: 2,
-        question: "Which of the following is not a causes of wetting failures?",
-        answer: "a. Variation in  Mix Ratio",
+        question: "As a general guidance what percentage is the cost of adhesive in a typical 3 ply GP laminate? (Eg.: 12 PET/12 met PET/ 30 PE with adhesive gsm of 2 on each pass)",
+        answer: "b. Between 8-12 percent of total laminate cost",
         options: [
-            "a. Variation in  Mix Ratio",
-            "b. Application weight too low",
-            "c. Temperature or pressure in the nip too low",
-            "d. Exceeded pot life"
+            "a. Less than 5 percent of total laminate cost",
+            "b. Between 8-12 percent of total laminate cost",
+            "c. Between 15-20 percent of total laminate cost",
+            "d. It cannot be calculated and not possible"
         ]
     },
     // {
@@ -38,91 +38,91 @@ let questions = [
     // },
     {
         id: 4,
-        question: "Low surface tension (low dyne value) does not result in ..",
-        answer: "b.	Lower contact angle",
+        question: "Does the cost of 100 gsm laminate remains the same per square meter and per Kg?",
+        answer: "d.	Cost per GSM will be 1/10th of the cost per Kg",
         options: [
-            "a.	Poor wettability",
-            "b.	Lower contact angle",
-            "c.	Low affinity to adhesive",
-            "d.	Speckling"
+            "a.	It will remain the same",
+            "b.	Cost of Per GSM will be lower than per Kg by 50 percent",
+            "c.	Cost per GSM will be higher than per Kg by 20 percent",
+            "d.	Cost per GSM will be 1/10th of the cost per Kg"
 
         ]
     },
     {
         id: 5,
-        question: "Which of the following is common in higher weight gravure coating cylinders without cleaning?",
-        answer: "b.	Cells gets blocked with adhesive",
+        question: "Which of the following adhesive combination is cheapest for a GP application?",
+        answer: "b.	SF adhesive running at 250 mpm",
         options: [
-            "a.	Coating weight increases with time",
-            "b.	Cells gets blocked with adhesive",
-            "c.	Higher solvent consumption",
-            "d.	Excessive wear and Tear"
+            "a.	SB adhesive running at 35 percent solids and at 200 mpm",
+            "b.	SF adhesive running at 250 mpm",
+            "c.	SB adhesive running at 30 percent solids and 250 mpm",
+            "d.	SF adhesive running at 200 mpm"
         ]
     },
     {
         id: 6,
-        question: "In which one of the following situation you will see a coat weight increase in SF adhesive systems?",
-        answer: "b. Too high adhesive viscosity",
+        question: "What happens to the laminate when it is not fully cured with respect to food safety?",
+        answer: "a. PAA migration possibility",
         options: [
-            "a. Too low adhesive viscosity",
-            "b. Too high adhesive viscosity",
-            "c. Repeated cleaning of the application roller",
-            "d. None of the above"
+            "a. PAA migration possibility",
+            "b. No effect",
+            "c. Laminate will be good once the bond strength is achieved.   ",
+            "d. Free of Substance of concern"
         ]
     },
     {
         id: 7,
-        question: "What according to you is not an option to eliminate wetting failures?",
-        answer: "d.	Decreasing the pressure on the Nip",
+        question: "Which of the following is not a part of Henkel’s triple food safety process?",
+        answer: "c. Customer laminate testing",
         options: [
-            "a.	Increasing the temperature of the adhesive",
-            "b.	Increasing the pressure on transfer roller",
-            "c. Corona treatment of films",
-            "d.	Decreasing the pressure on the Nip"
+            "a.	Use safe materials",
+            "b.	Prove your safety",
+            "c. Customer laminate testing",
+            "d.	Use safe processes"
         ]
     },
     {
         id: 8,
-        question: "If there is a wetting failure (spot repeating after regular intervals) which one of the following could be the reason?",
-        answer: "c.	Damage in the circumference of the transfer roller",
+        question: "What is the OML (overall migration limit) according to EU 10/2011 regulations for flexible packaging?",
+        answer: "c.	60 ppm",
         options: [
-            "a. Higher Adhesive Viscosity",
-            "b.	Higher application temperature",
-            "c.	Damage in the circumference of the transfer roller",
-            "d.	Uneven pressure distribution between the rollers"
+            "a. 10 ppm",
+            "b.	20 ppm",
+            "c.	60 ppm",
+            "d.	150 ppm"
         ]
     },
     {
         id: 9,
-        question: "Which one of the following is an effect of retained solvents in the laminates?",
-        answer: "c. Tackiness in the adhesive layer",
+        question: "What is the full form of NIAS?",
+        answer: "b. Non intentionally added substances",
         options: [
-            "a. Faster curing",
-            "b. Improved heat resistance properties",
-            "c. Tackiness in the adhesive layer",
-            "d. Curling of the laminate"
+            "a. Non Ionic adhesive substances",
+            "b. Non intentionally added substances",
+            "c. Necessary information of adhesive substances",
+            "d. Newly identified adhesive substances"
         ]
     },
     {
         id: 10,
-        question: "Pick the one substrate which can be stretched easily by giving higher tension.",
-        answer: "d.	PE",
+        question: "What are the sources of PAA?",
+        answer: "a.	Adhesive",
         options: [
-            "a.	BOPET",
-            "b.	BOPA",
-            "c.	BOPP",
-            "d.	PE"
+            "a.	Adhesive",
+            "b.	PP film",
+            "c.	Vinyl Ink",
+            "d.	PET/BOPP film"
         ]
     },
     {
         id: 11,
-        question: "Which of the following parameter has a direct role in curling? ",
-        answer: "d.	Unbalanced tension",
+        question: "What is the relevance of PAA in adhesive laminates?",
+        answer: "c.	Direct impact on food contact legislation",
         options: [
-            "a.	Adhesive coat weight",
-            "b.	Higher pressure on Transfer rollers",
-            "c.	Line speeds",
-            "d.	Unbalanced tension"
+            "a.	No Significance at all",
+            "b.	It is only related to Poly only",
+            "c.	Direct impact on food contact legislation",
+            "d.	None of the above"
         ]
     },
     // {
